@@ -76,5 +76,5 @@ Größe | Abmessung
 > Tab: Modulabmessungen
 
 ## Links
-http://wiki.seeedstudio.com/Grove_System/
-http://www.exp-tech.de/seeed-grove-wiki
+- http://wiki.seeedstudio.com/Grove_System/
+- http://www.exp-tech.de/seeed-grove-wiki
