@@ -47,9 +47,13 @@ __J__ ist ein Jumper um ggf. den RS485-Bus mit einem 120-Ohm Widerstand zu termi
 
 Die Anschlüsse für A und B stehen über die Schraubklemme zur Verfügung.
 
+![alt text][Platine]
+>Abb: Platine
+
 ### Nützliche Links
 - http://github.com/franzs/raspberry_pi_rs485
 - http://www.heise.de/ct/ausgabe/2017-17-Stromverbrauch-analysieren-mit-Raspi-und-Smart-Meter-3787264.html
 - [ISBN:3957881870](http://www.google.de/search?hl=de&tbo=p&tbm=bks&q=isbn:3957881870)
 
 [Produktabbildung]:https://github.com/brickpool/grove/blob/master/Communication/RS485/MAX485_RS-485_Module.jpg "MAX485 RS-485 Modul"
+[Platine]:https://github.com/brickpool/Grove/blob/master/Communication/RS485/MAX485_RS-485_Module_Leiterplatte.png
