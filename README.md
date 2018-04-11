@@ -1,7 +1,7 @@
 # Das Grove-System
-Ausgabe A
+Ausgabe Aa
 
-März 2018
+April 2018
 
 ## Hintergrund
 Im Arduino-Umfeld ist es üblich, dass mit wenigen Bauteilen schnell Projekte realisiert werden sollen. Die Verbindungsmöglichkeit mit konventioneller Hardware ist jedoch teilweise fehleranfällig und manchmal kommt Frust auf. Abhilfe schaffen Standards oder ein System. 
@@ -41,7 +41,7 @@ Pin | Farbe | Bezeihnung | Bedeutung | Beispiel
 1 | gelb | Leitung n | | Pin 1 | D0
 2 | weiß | Leitung n+1 | Pin 2 | D1
 3 | rot | V | Vers.-Spannung (VCC) | 3,3V
-4 | scharz | G | Masse (GND) | 0V
+4 | schwarz | G | Masse (GND) | 0V
 > Tab: Farbenlehre
 
 Kabellängen
