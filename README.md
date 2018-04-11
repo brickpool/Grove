@@ -19,7 +19,7 @@ Die Idee hinter dem Grove-System fand ich so gut, dass ich mich entschlossen hab
 ### Nachteile
 - Einschränkung bzgl. mancher Board
 - Grove Module sind im Vergleich teuer
-- Herstellung von Adaptern ist teilwweise teuer als ein Board
+- Herstellung von Adaptern ist teilweise teurer als ein Board
 - Shieds passen üblichweise nicht ins System
 
 ## Das Grove-System im Kern
