@@ -1,5 +1,5 @@
 # Das Grove-System
-Ausgabe Aa
+Ausgabe Ab
 
 April 2018
 
@@ -20,10 +20,10 @@ Die Idee hinter dem Grove-System fand ich so gut, dass ich mich entschlossen hab
 - Einschränkung bzgl. mancher Board
 - Grove Module sind im Vergleich teuer
 - Herstellung von Adaptern ist teilweise teurer als ein Board
-- Shieds passen üblichweise nicht ins System
+- Shields passen üblichweise nicht ins System
 
 ## Das Grove-System im Kern
-Ein Adapter verwandelt einen standardmäßiges Board mittels Grove-Stecker in ein Systemkompatibles Board. Anders, als sonst im Arduino Umfeld genutzte Header kommen Kabel (und Stecker) aus dem Grove-System zum Einsatz. 
+Ein Adapter verwandelt einen standardmäßiges Board mittels Grove-Stecker in ein Systemkompatibles Board. Anders, als sonst im Arduino Umfeld üblich, kommen ausschließlich Kabel und Stecker aus dem Grove-System zum Einsatz. 
 
 ### Kategorien
 Jede Kategorie hat in der Regel ein oder zwei Datenleitungen, eine Verbindung zur Versorgungsspannung und eine Verbindung zu Masse.
@@ -36,7 +36,7 @@ Jede Kategorie hat in der Regel ein oder zwei Datenleitungen, eine Verbindung zu
 ### Kabelsatz
 Die Länge der Kabel beträgt typischerweise ca. 20 cm, wobei jedes Kabel immer vier Leitungen hat und jede Leitung eine definierte Farbe. Module, die nur eine Datenleitung nutzen, haben i.d.R. beim weißen Kabel die Bezeichnung NC (no connection). 
 
-Pin | Farbe | Bezeihnung | Bedeutung | Beispiel
+Pin | Farbe | Bezeichnung | Bedeutung | Beispiel
 --- | --- | --- | --- | ---
 1 | gelb | Leitung n | | Pin 1 | D0
 2 | weiß | Leitung n+1 | Pin 2 | D1
@@ -52,7 +52,7 @@ Kabellängen
 - 50 cm
 
 ### Konnekoren
-Damit man einheitliche verkabeln verwenden kann, hat im Grove-System jeder Stecker 4 Anschlüsse. Der 4-polige Stecker ist immer der gleiche. Der Pin-Abstand von 2mm (ein echter Nachteil).
+Damit man einheitliche verkabeln kann, hat im Grove-System jeder Stecker 4 Anschlüsse. Der 4-polige Stecker ist immer der gleiche. Der Pin-Abstand beträgt 2mm (ein echter Nachteil).
 
 Schnittstelle | Beispiel (Pin 1-4)
 --- | ---
@@ -64,7 +64,7 @@ I2C-Bus | SCL,SDA,V,G
 > Tab: Standardschnittstellen
 
 ### Platinengröße
-Die zu den Modulen gehörenden Platinen besitzen standardisierte Abmessungen im Raster von 2 x 2cm. Aktuell sind fünf Größen defniert:
+Die zu den Modulen gehörenden Platinen besitzen standardisierte Abmessungen im Raster von 2 x 2cm. Aktuell sind fünf Größen definiert:
 
 Größe | Abmessung
 --- | ---
