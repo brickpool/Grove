@@ -23,7 +23,7 @@ Mit Hilfe eines High-Speed FETs kann das Umschalten der Steuerleitung automatisi
                       ___       
                 .----|___|----------------------o--------(V
                 |     10k                       |    
-                |    .-----------------------.  |    |J|
+                |    .-----------------------.  |   |JP1|
 RX)-------------)---<| o RO            VCC o |--' .--o o--.
                 o--o-| o RE   RS-485     A o |----'  ___  |
                 |  '-| o DE   Modul      B o |------|___|-'
@@ -43,12 +43,12 @@ Pin 2 | TX
 Pin 3 | V 
 Pin 4 | G
 
-__J__ ist ein Jumper um ggf. den RS485-Bus mit einem 120-Ohm Widerstand zu terminieren. 
+__JP1__ ist ein Jumper um ggf. den RS485-Bus mit einem 120-Ohm Widerstand zu terminieren. 
 
 Die Anschlüsse für A und B stehen über die Schraubklemme zur Verfügung.
 
 ![alt text][Platine]
->Abb: Platine
+>Abb: Platine, __ACHTUNG__ mit spiegelverkehrtem Grove Stecker!
 
 ### Nützliche Links
 - http://github.com/franzs/raspberry_pi_rs485
