@@ -15,7 +15,7 @@ Sonstiges:
 - Bezugsquelle eBay
 - Kennzeichnung: LC Electronis
 
-Die Datenleitungen A und B sind als Schraubklemme rausgeführt. Zusätzlich sind diese mit VCC und GND als 4 Pol Stiftleiste herausgeführt. Ein Abschlußwiderstand vcon 120 Ohm ist nicht on Board. View Anschlüsse sind auf der TTL-Seite für das Senden und  Empfangen der Daten (TTL TX/RX) und zwei Steuerleitungen (TTL RTS/CTS), die laut Beschreibung vom Mikrocontroller gesteuert werden sollen.
+Die Datenleitungen A und B sind als Schraubklemme rausgeführt. Zusätzlich sind diese mit VCC und GND als 4 Pol Stiftleiste herausgeführt. Ein Abschlußwiderstand von 120 Ohm ist nicht bei jeden Boards vorhanden (laut c't Sonderheft). Vier Anschlüsse sind auf der TTL-Seite für das Senden und Empfangen der Daten (TTL DI/RO) und zwei Steuerleitungen (TTL DE/RE), die laut Beschreibung vom Mikrocontroller gesteuert werden sollen.
 
 Mit Hilfe eines High-Speed FETs kann das Umschalten der Steuerleitung automatisiert werden. Nähres hierzu ist unter anderem in c't Sonderheft Raspberry PI von 2017 beschrieben. 
 
@@ -25,8 +25,8 @@ Mit Hilfe eines High-Speed FETs kann das Umschalten der Steuerleitung automatisi
                 |     10k                       |    
                 |    .-----------------------.  |   |JP1|
 RX)-------------)---<| o RO            VCC o |--' .--o o--.
-                o--o-| o RE   RS-485     A o |----'  ___  |
-                |  '-| o DE   Modul      B o |------|___|-'
+                o--o-| o RE   RS-485     B o |----'  ___  |
+                |  '-| o DE   Modul      A o |------|___|-'
     .-----------)--->| o DI            GND o |--.    120
     |           |    '-----------------------'  |
     |   ___   |-+                               |
@@ -38,17 +38,17 @@ TX)-o--|___|->|                                 |
 
 Grove | Bezeichnung
 --- | ---
-Pin 1 | RX
-Pin 2 | TX
-Pin 3 | V 
-Pin 4 | G
+Pin 1 | G
+Pin 2 | V
+Pin 3 | TX
+Pin 4 | RX
 
 __JP1__ ist ein Jumper um ggf. den RS485-Bus mit einem 120-Ohm Widerstand zu terminieren. 
 
 Die Anschlüsse für A und B stehen über die Schraubklemme zur Verfügung.
 
 ![alt text][Platine]
->Abb: Platine, __ACHTUNG__ mit spiegelverkehrtem Grove Stecker!
+>Abb: Platine
 
 ### Nützliche Links
 - http://github.com/franzs/raspberry_pi_rs485
