@@ -38,7 +38,7 @@ Die Länge der Kabel beträgt typischerweise ca. 20 cm, wobei jedes Kabel immer 
 
 Pin | Farbe | Bezeichnung | Bedeutung | Beispiel
 --- | --- | --- | --- | ---
-4 | gelb | Leitung n | | Pin 1 | D0
+4 | gelb | Leitung n | Pin 1 | RX
 3 | weiß | Leitung n+1 | Pin 2 | D1
 2 | rot | V | Vers.-Spannung (VCC) | 3,3V
 1 | schwarz | G | Masse (GND) | 0V
