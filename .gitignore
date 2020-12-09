@@ -1,0 +1,6 @@
+# Ignore some directories
+/Communication/LogoTD/
+
+# Komodo files
+*.komodoproject
+/.komodotools/

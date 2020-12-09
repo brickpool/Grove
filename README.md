@@ -1,12 +1,12 @@
 # Das Grove-System
-Ausgabe Ab
+Ausgabe Ad
 
-April 2018
+Dezember 2020
 
 ## Hintergrund
 Im Arduino-Umfeld ist es üblich, dass mit wenigen Bauteilen schnell Projekte realisiert werden sollen. Die Verbindungsmöglichkeit mit konventioneller Hardware ist jedoch teilweise fehleranfällig und manchmal kommt Frust auf. Abhilfe schaffen Standards oder ein System. 
 
-Das Grove-System ist so ein Ansatz. Es besteht aus verschiedenen vordefinierten Modulen (Sensoren, Aktoren, etc.). Viel wichtiger ist aber, dass durch das Plug-and-play-Prinzip und der Standardschnittstelle eine einfache und schnelle Verkabelung möglich ist. Diesbezüglich ist das Grove-System insbesondere für das schnelle und fehlerfreie Prototyping von Vorteil. 
+Das Grove-System ist so ein Ansatz. Es besteht aus verschiedenen vordefinierten Modulen (Sensoren, Aktoren, etc.). Viel wichtiger ist aber, dass durch das Plug-and-play-Prinzip und einer Standardschnittstelle eine einfache und schnelle Verkabelung möglich ist. Diesbezüglich ist das Grove-System insbesondere für das schnelle und fehlerfreie Prototyping von Vorteil. 
 
 Die Idee hinter dem Grove-System fand ich so gut, dass ich mich entschlossen habe, vorhandene Boards, die teilweise aus unterschiedlichen Quellen stammen (also nicht kompatibel sind), so anzupassen, dass diese sich in das Grove-System einfügen. 
 
@@ -20,10 +20,10 @@ Die Idee hinter dem Grove-System fand ich so gut, dass ich mich entschlossen hab
 - Einschränkung bzgl. mancher Board
 - Grove Module sind im Vergleich teuer
 - Herstellung von Adaptern ist teilweise teurer als ein Board
-- Shields passen üblichweise nicht ins System
+- Shields passen üblicherweise nicht ins System
 
 ## Das Grove-System im Kern
-Ein Adapter verwandelt einen standardmäßiges Board mittels Grove-Stecker in ein Systemkompatibles Board. Anders, als sonst im Arduino Umfeld üblich, kommen ausschließlich Kabel und Stecker aus dem Grove-System zum Einsatz. 
+Ein Adapter verwandelt ein standardmäßiges Board mittels Grove-Stecker in ein Systemkompatibles Board. Anders, als sonst im Arduino Umfeld üblich, kommen ausschließlich Kabel und Stecker aus dem Grove-System zum Einsatz. 
 
 ### Kategorien
 Jede Kategorie hat in der Regel ein oder zwei Datenleitungen, eine Verbindung zur Versorgungsspannung und eine Verbindung zu Masse.
@@ -38,10 +38,10 @@ Die Länge der Kabel beträgt typischerweise ca. 20 cm, wobei jedes Kabel immer 
 
 Pin | Farbe | Bezeichnung | Bedeutung | Beispiel
 --- | --- | --- | --- | ---
-1 | gelb | Leitung n | | Pin 1 | D0
-2 | weiß | Leitung n+1 | Pin 2 | D1
-3 | rot | V | Vers.-Spannung (VCC) | 3,3V
-4 | schwarz | G | Masse (GND) | 0V
+4 | gelb | Leitung n | | Pin 1 | D0
+3 | weiß | Leitung n+1 | Pin 2 | D1
+2 | rot | V | Vers.-Spannung (VCC) | 3,3V
+1 | schwarz | G | Masse (GND) | 0V
 > Tab: Farbenlehre
 
 Kabellängen
@@ -52,9 +52,9 @@ Kabellängen
 - 50 cm
 
 ### Konnekoren
-Damit man einheitliche verkabeln kann, hat im Grove-System jeder Stecker 4 Anschlüsse. Der 4-polige Stecker ist immer der gleiche. Der Pin-Abstand beträgt 2mm (ein echter Nachteil).
+Damit man einheitlich verkabeln kann, hat im Grove-System jeder Stecker 4 Anschlüsse. Der 4-polige Stecker ist immer der gleiche. Der Pin-Abstand beträgt 2mm (ein echter Nachteil).
 
-Schnittstelle | Beispiel (Pin 1-4)
+Schnittstelle | Beispiel (Pin 4-1)
 --- | ---
 Digital | D2,D3,V,G
 Analoge Eingänge | A0,A1,V,G
@@ -64,7 +64,7 @@ I2C-Bus | SCL,SDA,V,G
 > Tab: Standardschnittstellen
 
 ### Platinengröße
-Die zu den Modulen gehörenden Platinen besitzen standardisierte Abmessungen im Raster von 2 x 2cm. Aktuell sind fünf Größen definiert:
+Die zu den Modulen gehörende Platinen besitzen standardisierte Abmessungen im Raster von 2 x 2cm. Aktuell sind fünf Größen definiert:
 
 Größe | Abmessung
 --- | ---
