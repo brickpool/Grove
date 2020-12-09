@@ -21,8 +21,8 @@ Grove Stecker | Arduino Uno | 4 Digit Display Modul
 --- | --- | ---
 Pin 1 | GND | GND
 Pin 2 | 5V | VCC
-Pin 3 | D2 | DIO
-Pin 4 | D1 | CLK
+Pin 3 | D3 | DIO
+Pin 4 | D2 | CLK
 >Tab: D2 Steckplatz am Grove Base Shield V2
 
 >Hinweis: Die Pins CLK und DIO können mit jedem digitalen Pin am Arduino verbunden werden. 
