@@ -15,9 +15,9 @@ Sonstiges:
 - Bezugsquelle eBay
 - Kennzeichnung: LC Electronis
 
-Die Datenleitungen A und B sind als Schraubklemme rausgeführt. Zusätzlich sind diese mit VCC und GND als 4 Pol Stiftleiste herausgeführt. Ein Abschlußwiderstand von 120 Ohm ist nicht bei jeden Boards vorhanden (laut c't Sonderheft). Vier Anschlüsse sind auf der TTL-Seite für das Senden und Empfangen der Daten (TTL DI/RO) und zwei Steuerleitungen (TTL DE/RE), die laut Beschreibung vom Mikrocontroller gesteuert werden sollen.
+Die Datenleitungen A und B sind als Schraubklemme rausgeführt. Zusätzlich sind diese mit VCC und GND als 4 Pol Stiftleiste herausgeführt. Ein Abschlußwiderstand von 120 Ohm ist nicht bei jedem Boards vorhanden (laut c't Sonderheft). Vier Anschlüsse sind auf der TTL-Seite: zwei für das Senden und Empfangen der Daten (TTL DI/RO) und zwei für die Steuerung (TTL DE/RE), welche vom Mikrocontroller gesteuert werden sollen.
 
-Mit Hilfe eines High-Speed FETs kann das Umschalten der Steuerleitung automatisiert werden. Nähres hierzu ist unter anderem in c't Sonderheft Raspberry PI von 2017 beschrieben. 
+Mit Hilfe eines High-Speed FETs kann das Umschalten der Steuerleitung automatisiert werden. Näheres hierzu ist unter anderem im c't _Sonderheft Raspberry PI_ von 2017 beschrieben. 
 
 ```
                       ___       
@@ -36,12 +36,13 @@ TX)-o--|___|->|                                 |
 ```
 >Abb: Schaltung
 
-Grove | Bezeichnung
---- | ---
-Pin 1 | G
-Pin 2 | V
-Pin 3 | TX
-Pin 4 | RX
+Grove Stecker | Arduino Uno | RS-485 Modul
+--- | --- | ---
+Pin 1 | GND | G
+Pin 2 | VCC | V
+Pin 3 | D1 | TX
+Pin 4 | D0 | RX
+>Tab: UART Steckplatz am Grove Base Shield V2
 
 __JP1__ ist ein Jumper um ggf. den RS485-Bus mit einem 120-Ohm Widerstand zu terminieren. 
 
