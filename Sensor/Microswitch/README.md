@@ -13,7 +13,7 @@ Sonstiges:
 - Bezugsquelle eBay
 - Bezeichnung _Collision Switch Sensor Module YL-99_
 
-Dieses kleine Modul, das sich für automatisierten Anwendungen (z.B. als Endschalter) anbietet, beinhaltet einen Mikroschalter der als Kollisionsschalter (Bumper) z.B. an Robotern verwenden kann.
+Dieses kleine Modul, dass sich für automatisierte Anwendungen anbietet, beinhaltet einen Mikroschalter der als Kollisionsschalter (Bumper) z.B. für eine Endabschaltung eines Schrittmotors verwendet werden kann.
 
 Grove Stecker | Arduino Uno | Micro Switch Modul
 --- | --- | ---
